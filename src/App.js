@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import CompUseFetch from "./Components/CompUseFetch";
+import CompUseTimeout from "./Components/CompUseTimeout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>useFetch Hook</h1>
+      <CompUseFetch />
+      <br />
+      <br />
+      <h1>UseTimeout Hook</h1>
+      <CompUseTimeout />
     </div>
   );
 }
